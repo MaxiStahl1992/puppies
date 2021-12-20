@@ -1,0 +1,38 @@
+*{
+    background-color: whitesmoke;
+}
+
+header{
+    color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+    color: darkslategrey;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pictures img {
+    margin: 1rem;
+    width: 25%;
+    height: 25%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
